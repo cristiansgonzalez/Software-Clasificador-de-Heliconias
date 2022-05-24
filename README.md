@@ -6,6 +6,30 @@ La clasificación de especies de plantas es crucial para la protección y conser
 
 Los datos empleados para el entrenamiento, prueba y validación de los métodos fueron imágenes RGB tomadas en el hábitat natural de las heliconias, con el fin de tener información desde su germinación hasta su momento óptimo de corte. Las imágenes fueron preprocesadas, haciendo un ajuste de balance de blancos, contraste y temperatura del color. Para separar las heliconias del fondo se utilizó una técnica de segmentación por grafos mediante SPG. Los descriptores se obtuvieron empleando la técnica conocida como BoW (Bag of Words), encontrando que el número de palabras visuales más adecuadas para la clasificación estaba entre 20 a 40. El método con el que se obtuvieron los mejores resultados fue el KNN; empleando los tres vecinos más cercanos, con una precisión del 97%.
 
+## Ejecucion del codigo
+
+El programa esta compuesto de dos archivos `Principal.py` y `malla.py`
+
+## Principal.py
+
+- Lee las imagenes de cada variedad de heliconia y las reduce de tamaña usando la funcion `malla.matriz(alto,ancho,imagen)`.
+- Como las imagenes estan pre-procesadas con un tono color negro de fondo, se procede apilan en una sola matriz usando la funcion `malla.acomodar(imagen_RGB)`.
+- Se utiliza el metodo Bag of words el cual acomoda los centroides seleccionados les asigna una etiqueta y realiza el conteo de esta etiqueta usando la fucnion `malla.codigo(imagens,cluster)`
+- Se ingresa una matriz de colores y se procede a separa cada muestra para entrenamiento (60%), prueba (20%) y validacion (20%), tambien se retiran de la muestra el color negro ya que no aporta informacion relevante al procesamiento usando las siguientes funciones:
+  - `malla.entrenamiento(im[0],im[1],im[2],im[3],labels,centroide)`
+  - `malla.validacion(im[0],im[1],im[2],im[3],centroide)` 
+  - `malla.prueba(im[0],im[1],im[2],im[3],centroide)`
+
+- Por ultimo se ejecutan los clasificadores con su debida prueba y validacion.
+  - `malla.KNN2()`
+  - `malla.svm1()`
+  - `malla.svm2()`
+  - `malla.svm3()`
+  - `malla.svm4()`
+  - `malla.ANN()`
+  - `malla.intersecion()`
+  - `malla.intersecion_prom()`
+
 ## Autor
 
 - Cristian González (<cristian-saul-66@hotmail.com>)
