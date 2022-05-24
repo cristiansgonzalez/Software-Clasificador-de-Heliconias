@@ -30,6 +30,19 @@ El programa esta compuesto de dos archivos `Principal.py` y `malla.py`
   - `malla.intersecion()`
   - `malla.intersecion_prom()`
 
+## malla.py
+
+Es una libreria que contiene las siguientes funciones
+
+  - `read()` Lee las imagenes
+  - `matriz()` Redimensiona las imagenes leidas y las apila
+  - `matriz_test()` Redimensiona las imagenes leidas y las apila
+  - `contar()` Cuenta la cantidad de datos que esta mas cerca al centroide
+  - `acomodar()` Combierte de una matriz RGB a una matriz Nx3
+  - `km()` Implementa la funcion K-means
+  - `quitar_negros()` Retira todos los valores de color negro de la imagen
+  - `graficar()` Realiza un grafico de barras
+
 ## Autor
 
 - Cristian González (<cristian-saul-66@hotmail.com>)
