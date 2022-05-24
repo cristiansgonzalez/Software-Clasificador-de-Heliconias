@@ -50,8 +50,8 @@ Es una libreria que contiene las siguientes funciones
   - `entrenamiento()` Utiliza el 60% de los datos para crear la base de datos
   - `validacion()` Utiliza el 20% de los datos para realizar la validacion de los datos
   - `prueba()` Utiliza el 20% de los datos para realizar la prueba de los datos
-  - `()` 
-  - `()` 
+  - `intersecion()` Compara con toda la base de datos con cual tiene menor diferencia
+  - `intersecion_prom()` Compara con el promedio de los datos con cual tiene menor diferencia
 
 ## Autor
 
