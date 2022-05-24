@@ -12,4 +12,4 @@ Los datos empleados para el entrenamiento, prueba y validación de los métodos 
 
 ## Publicación
 
-- [Automatic Classification of Zingiberales from RGB Images]([https://pages.github.com/](https://link.springer.com/chapter/10.1007/978-3-030-77004-4_19))
+- [Automatic Classification of Zingiberales from RGB Images](https://link.springer.com/chapter/10.1007/978-3-030-77004-4_19)
