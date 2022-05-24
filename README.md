@@ -42,6 +42,16 @@ Es una libreria que contiene las siguientes funciones
   - `km()` Implementa la funcion K-means
   - `quitar_negros()` Retira todos los valores de color negro de la imagen
   - `graficar()` Realiza un grafico de barras
+  - `codigo()` Combina las funciones `km()` y `contar()`
+  - `KNN2()` Clasificador K-Nearest Neighbor (KNN) con diferente cantidad de vecinos
+  - `KNN()` Se uso para agrupar los datos mas cercanos a los centroides
+  - `svm#()` Clasificador Support Vector Machine (SVM) con diferentes parametros y rangos
+  - `ANN()` Clasificador Red Neuronal Artificial (ANN) variando cantidad de neuronas y capas
+  - `entrenamiento()` Utiliza el 60% de los datos para crear la base de datos
+  - `validacion()` Utiliza el 20% de los datos para realizar la validacion de los datos
+  - `prueba()` Utiliza el 20% de los datos para realizar la prueba de los datos
+  - `()` 
+  - `()` 
 
 ## Autor
 
