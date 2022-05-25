@@ -52,8 +52,49 @@ Es una librería que contiene las siguientes funciones
   - `prueba()` Utiliza el 20% de los datos para realizar la prueba de los datos
   - `intersecion()` Compara con toda la base de datos con cual tiene menor diferencia
   - `intersecion_prom()` Compara con el promedio de los datos con cual tiene menor diferencia
+  - `*_interfaz()` Todas las funciones que tienen la palabra interfaz son metodos de clasificacion usado en la interfaz grafica
 
 ## interfaz.py
+
+| BOTONES | FUNCIONAMIENTO |
+| --------- | --------- | 
+| renglón 1, columna 1 | Se abre una ventana de exploración para buscar la imagen que se desea clasificar. Los formatos de imágenes permitidos son: tif, jpg y png. |
+| renglón 2, columna 1 | Se abren dos ventanas, una con la imagen a modificar y la otra con el resultado que se está obteniendo. Click derecho: realizar un cuadro que incluya el objeto a analizar. Click izquierdo: seleccionar lo que quiera incluir como objeto deseado u objeto no deseado.    	  |
+| renglón 3, columna 1 | renglón 3, columna 2 |
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<table style="width:100%">
+  <tr>
+    <th>BOTONES</th>
+    <th>FUNCIONAMIENTO</th>
+  </tr>
+  <tr>
+    <td>Emil</td>
+    <td>Se abre una ventana de exploración para buscar la imagen que se desea clasificar. Los formatos de imágenes permitidos son: tif, jpg y png.</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Se abren dos ventanas, una con la imagen a modificar y la otra con el resultado que se está obteniendo.      
+      <ul>
+        <li>Click derecho: realizar un cuadro que incluya el objeto a analizar.</li>
+        <li>Click izquierdo: seleccionar lo que quiera incluir como objeto deseado u objeto no deseado.</li>
+          <ul>
+            <li>“0” oprimir el número y seleccionar lo que no se considere como información deseada.</li>
+            <li>“1” oprimir el número y seleccionar lo que si se considere como información deseada.</li>
+          </ul>
+        <li>“n” Retirar lo que se considere no deseado y ponerlo en color negro.</li>
+        <li>“s” Guardar los cambios.</li>
+        <li>“ESC” salir del aplicativo sin realizar cambios.</li>
+      </ul>
+     </td>
+  </tr>
+</table>
+
+</body>
+</html>
 
 ## Autor
 
@@ -63,9 +104,6 @@ Es una librería que contiene las siguientes funciones
 
 - [Automatic Classification of Zingiberales from RGB Images](https://link.springer.com/chapter/10.1007/978-3-030-77004-4_19)
 
-
-Me llamo Javier Cristóbal y tengo un blog sobre [productividad mac][blog].
-En dicha [web][blog] recopilo artículos sobre todo lo relacionado con automatización, gestión y eficiencia.
 
 [Principal]: https://github.com/cristiansgonzalez/Software-Clasificador-de-Heliconias/edit/master/README.md#principalpy
 [malla]: https://github.com/cristiansgonzalez/Software-Clasificador-de-Heliconias/edit/master/README.md#mallapy
