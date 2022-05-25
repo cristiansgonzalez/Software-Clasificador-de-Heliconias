@@ -8,7 +8,7 @@ Los datos empleados para el entrenamiento, prueba y validación de los métodos 
 
 ## Ejecución del código
 
-El programa está compuesto de dos archivos `Principal.py` y `malla.py`
+El programa está compuesto de dos archivos `Principal.py` y `malla.py`, pero si desea utilizar la interfaz grafica del programa debe instalar la libreria de OpenCv y descargar los los siguientes archivos `interfaz.py` y `malla.py`.
 
 ## Principal.py
 
