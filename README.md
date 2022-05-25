@@ -8,7 +8,7 @@ Los datos empleados para el entrenamiento, prueba y validación de los métodos 
 
 ## Ejecución del código
 
-Inicialmente se realiza un procesamiento de los datos con los archivos [`Principal.py`][Principal] y [`malla.py`][malla], pero si desea utilizar la interfaz grafica del programa debe instalar la libreria de OpenCv y descargar los los siguientes archivos [`interfaz.py`][interfaz] y [`malla.py`][malla].
+Se realiza un procesamiento de los datos con los archivos [`Principal.py`][Principal] y [`malla.py`][malla], variando los diferentes parametros de cada uno de los diferentes clasificadores, despues de obtener los parametros en lo que mejor se comportan los clasificadores, se realizo un aplicativo con intefaz grafica, para utilizarlo debe ejecutar los siguientes archivos [`interfaz.py`][interfaz] y [`malla.py`][malla]. Nota debe tener instalado el pack de OpenCv. 
 
 ## Principal.py
 
