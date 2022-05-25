@@ -66,11 +66,11 @@ Es una librería que contiene las siguientes funciones
     <th>FUNCIONAMIENTO</th>
   </tr>
   <tr>
-    <td><img src="dinosaur.jpg"></td>
+    <td><img src="examinar2.png"></td>
     <td>Se abre una ventana de exploración para buscar la imagen que se desea clasificar. Los formatos de imágenes permitidos son: tif, jpg y png.</td>
   </tr>
   <tr>
-    <td>16</td>
+    <td><img src="segmentar2.png"></td>
     <td>Se abren dos ventanas, una con la imagen a modificar y la otra con el resultado que se está obteniendo.      
       <ul>
         <li>Click derecho: realizar un cuadro que incluya el objeto a analizar.</li>
@@ -86,7 +86,7 @@ Es una librería que contiene las siguientes funciones
      </td>
   </tr>
   <tr>
-    <td>16</td>
+    <td><img src="clasificar2.png"></td>
     <td>Clasifica el tipo de heliconia ingresado.</td>
   </tr>
 </table>
