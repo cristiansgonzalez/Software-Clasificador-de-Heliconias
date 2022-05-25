@@ -8,7 +8,7 @@ Los datos empleados para el entrenamiento, prueba y validación de los métodos 
 
 ## Ejecución del código
 
-Se realiza un procesamiento de los datos con los archivos [`Principal.py`][Principal] y [`malla.py`][malla], variando los diferentes parametros de cada uno de los diferentes clasificadores, despues de obtener los parametros en lo que mejor se comportan los clasificadores, se realizo un aplicativo con intefaz grafica, para utilizarlo debe ejecutar los siguientes archivos [`interfaz.py`][interfaz] y [`malla.py`][malla]. Nota debe tener instalado el pack de OpenCv. 
+Se realiza un procesamiento de los datos con los archivos [`Principal.py`][Principal] y [`malla.py`][malla], variando los diferentes parámetros de cada uno de los diferentes clasificadores, después de obtener los parámetros en lo que mejor se comportan los clasificadores, se realizó un aplicativo con interfaz gráfica, para utilizarlo debe ejecutar los siguientes archivos [`interfaz.py`][interfaz] y [`malla.py`][malla]. Nota debe tener instalado el pack de OpenCv. 
 
 ## Principal.py
 
@@ -52,7 +52,7 @@ Es una librería que contiene las siguientes funciones
   - `prueba()` Utiliza el 20% de los datos para realizar la prueba de los datos
   - `intersecion()` Compara con toda la base de datos con cual tiene menor diferencia
   - `intersecion_prom()` Compara con el promedio de los datos con cual tiene menor diferencia
-  - `*_interfaz()` Todas las funciones que tienen la palabra interfaz son metodos de clasificacion usado en la interfaz grafica
+  - `*_interfaz()` Todas las funciones que tienen la palabra interfaz son métodos de clasificación usado en la interfaz grafica
 
 ## interfaz.py
 
