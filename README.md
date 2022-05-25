@@ -56,12 +56,6 @@ Es una librería que contiene las siguientes funciones
 
 ## interfaz.py
 
-| BOTONES | FUNCIONAMIENTO |
-| --------- | --------- | 
-| renglón 1, columna 1 | Se abre una ventana de exploración para buscar la imagen que se desea clasificar. Los formatos de imágenes permitidos son: tif, jpg y png. |
-| renglón 2, columna 1 | Se abren dos ventanas, una con la imagen a modificar y la otra con el resultado que se está obteniendo. Click derecho: realizar un cuadro que incluya el objeto a analizar. Click izquierdo: seleccionar lo que quiera incluir como objeto deseado u objeto no deseado.    	  |
-| renglón 3, columna 1 | renglón 3, columna 2 |
-
 <!DOCTYPE html>
 <html>
 <body>
@@ -72,7 +66,7 @@ Es una librería que contiene las siguientes funciones
     <th>FUNCIONAMIENTO</th>
   </tr>
   <tr>
-    <td>Emil</td>
+    <td><img src="dinosaur.jpg"></td>
     <td>Se abre una ventana de exploración para buscar la imagen que se desea clasificar. Los formatos de imágenes permitidos son: tif, jpg y png.</td>
   </tr>
   <tr>
@@ -90,6 +84,10 @@ Es una librería que contiene las siguientes funciones
         <li>“ESC” salir del aplicativo sin realizar cambios.</li>
       </ul>
      </td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Clasifica el tipo de heliconia ingresado.</td>
   </tr>
 </table>
 
