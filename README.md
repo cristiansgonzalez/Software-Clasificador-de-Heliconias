@@ -8,7 +8,7 @@ Los datos empleados para el entrenamiento, prueba y validación de los métodos 
 
 ## Ejecución del código
 
-El programa está compuesto de dos archivos `Principal.py` y `malla.py`, pero si desea utilizar la interfaz grafica del programa debe instalar la libreria de OpenCv y descargar los los siguientes archivos `interfaz.py` y `malla.py`.
+Inicialmente se realiza un procesamiento de los datos con los archivos [`Principal.py`][Principal] y [`malla.py`][malla], pero si desea utilizar la interfaz grafica del programa debe instalar la libreria de OpenCv y descargar los los siguientes archivos [`interfaz.py`][interfaz] y [`malla.py`][malla].
 
 ## Principal.py
 
@@ -53,6 +53,8 @@ Es una librería que contiene las siguientes funciones
   - `intersecion()` Compara con toda la base de datos con cual tiene menor diferencia
   - `intersecion_prom()` Compara con el promedio de los datos con cual tiene menor diferencia
 
+## interfaz.py
+
 ## Autor
 
 - Cristian González (<cristian-saul-66@hotmail.com>)
@@ -60,3 +62,11 @@ Es una librería que contiene las siguientes funciones
 ## Publicación
 
 - [Automatic Classification of Zingiberales from RGB Images](https://link.springer.com/chapter/10.1007/978-3-030-77004-4_19)
+
+
+Me llamo Javier Cristóbal y tengo un blog sobre [productividad mac][blog].
+En dicha [web][blog] recopilo artículos sobre todo lo relacionado con automatización, gestión y eficiencia.
+
+[Principal]: https://github.com/cristiansgonzalez/Software-Clasificador-de-Heliconias/edit/master/README.md#principalpy
+[malla]: https://github.com/cristiansgonzalez/Software-Clasificador-de-Heliconias/edit/master/README.md#mallapy
+[interfaz]: https://github.com/cristiansgonzalez/Software-Clasificador-de-Heliconias/edit/master/README.md#interfazpy
