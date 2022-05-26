@@ -245,9 +245,9 @@ def seg():
 def clasificar():
     
     global pred, label3
-    pred=malla.prueba_interfaz_intersecion(sal3)
+    #pred=malla.prueba_interfaz_intersecion(sal3)
     #pred=malla.prueba_interfaz_ANN(sal3)
-    #pred=malla.prueba_interfaz_KNN(sal3)
+    pred=malla.prueba_interfaz_KNN(sal3)
     #print(pred)
     
     label3.grid_forget()
