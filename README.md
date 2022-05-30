@@ -51,6 +51,7 @@ Es una librería que contiene las siguientes funciones
 
 ## interfaz.py
 
+<img src="clasificador.png">
 <!DOCTYPE html>
 <html>
 <body>
